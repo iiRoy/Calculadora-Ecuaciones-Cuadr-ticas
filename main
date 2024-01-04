@@ -1,0 +1,53 @@
+/ Programa realizado por Rodrigo López Guerra
+/ A01737437
+
+Loop, Load result
+Clear
+Store result
+Input
+Output
+Store x
+Load counter
+Add x
+Store counter
+Load counter2
+Add seven
+Store counter2
+XSQUARE, Load result
+Add x
+Store result
+Load counter
+Subt one
+Store counter
+Load counter
+Skipcond 800
+jump SEVENX
+jump XSQUARE
+SEVENX, Load result
+Add x
+Store result
+Load counter2
+Subt one
+Store counter2
+Skipcond 800
+jump TWELVEADD
+jump SEVENX
+TWELVEADD, Load result
+Add twelve
+Store result
+Load result
+Output
+Load case
+subt one
+Store case
+Skipcond 800
+Halt
+Jump Loop
+result, DEC 0
+x, DEC 0
+counter, DEC 0
+counter2, DEC 0
+seven, DEC 7
+one, DEC 1
+twelve, DEC 12
+case, DEC 5
